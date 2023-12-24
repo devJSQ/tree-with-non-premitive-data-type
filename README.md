@@ -12,17 +12,17 @@ Using Java programming language:
 
 In `Node` class:
 
-1 - create String (name) attribute to store the name.
+1 - create String (name) attribute to store the name.    
 2 - Create 3 pointer (left, center, right).
 
 In `main` class:
 
-3 - Create Tree with than name (T).
-4 - Accecc the root data (name) and print it
-5 - Update the root data (name) to be Mohammed
-6 - Create root child (left child) with the name "Ali"
-7 - Print tree values using (printTreeValues) method.
-8 - Output should be the same as below:
+3 - Create Tree with than name (T).   
+4 - Accecc the root data (name) and print it.   
+5 - Update the root data (name) to be Mohammed.    
+6 - Create root child (left child) with the name "Ali".    
+7 - Print tree values using (printTreeValues) method.    
+8 - Output should be the same as below:    
 ```java
 Print root value
 Ahmed
