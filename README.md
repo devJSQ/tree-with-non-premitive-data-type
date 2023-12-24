@@ -1,4 +1,4 @@
-# Tree premitive project
+# Tree with non-premitive data type project
 
 ### Objective
 In this project, our objective is to create a tree of strings.
