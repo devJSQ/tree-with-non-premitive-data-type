@@ -4,7 +4,7 @@
 The project's main focus is understanding trees, declaring the tree, accessing tree nodes using pointers, and performing operations on them.
 
 ### Problem
-Create a tree to store names.
+Create a tree to store names and print them.
 
 ### Implementation
 
