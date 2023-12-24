@@ -12,7 +12,7 @@ Using Java programming language:
 
 In `Node` class:
 
-1 - create String (name) attribute to store the name.    
+1 - Create String (name) attribute to store the name.    
 2 - Create 3 pointer (left, center, right).
 
 In `main` class:
