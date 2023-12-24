@@ -1,7 +1,7 @@
 # Tree with non-premitive data type project
 
 ### Objective
-In this project, our objective is to create a tree of strings.
+The project's main focus is understanding trees, declaring the tree, accessing tree nodes using pointers, and performing operations on them.
 
 ### Problem
 Create a tree to store names.
