@@ -18,7 +18,7 @@ In `Node` class:
 In `main` class:
 
 3 - Create Tree with than name (T).   
-4 - Accecc the root data (name) and print it.   
+4 - Access the root data (name) and print it.   
 5 - Update the root data (name) to be Mohammed.    
 6 - Create root child (left child) with the name "Ali".    
 7 - Print tree values using (printTreeValues) method.    
@@ -27,8 +27,8 @@ In `main` class:
 Print root value
 Ahmed
 Print tree values
- Ali
- Mohammed
+Ali
+Mohammed
 ```
 
 
@@ -68,12 +68,36 @@ public class Tree {
     }
 
     // Print tree values function
-    public void printTreeValues(Node node) {
-        if (node != null) {
-            printTreeValues(node.left);
-            System.out.println(" " + node.name);
-            printTreeValues(node.right);
+   public void printTreeValues(Node root) {
+
+        if (root == null) {
+            System.out.println("Tree is empty");
+            return;
         }
+
+        Stack<Node> stack = new Stack<Node>();
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            Node currentNode = stack.pop();
+
+            System.out.println(currentNode.name);
+
+            if (currentNode.right != null) {
+                stack.push(currentNode.right);
+            }
+
+            if (currentNode.left != null) {
+                stack.push(currentNode.left);
+            }
+
+            if (currentNode.center != null) {
+                stack.push(currentNode.center);
+            }
+
+        }
+
+        return;
     }
 
     public static void main(String[] args) {
