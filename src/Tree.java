@@ -3,11 +3,11 @@ import java.util.Stack;
 class Node {
 
     // Data
-    /* your code here 1 - create String (name) attribute to store the names  */ 
-
+    String name;
     // Pointers
-    /* your code here 2 - Create 3 pointer (left, center, right) */ 
-     
+    Node left;
+    Node center;
+    Node right;
 
     // Constructor
     Node(String name) {
@@ -19,68 +19,39 @@ class Node {
 
 }
 
-public class Tree {
+class Tree {
 
     Node root;
 
-    Tree(String name) {
-        root = new Node(name);
+    public Tree(Node root) {
+        this.root = root;
     }
 
-    Tree() {
+    public Tree() {
         root = null;
     }
+
+
+    // 1 - Write a function that prints all tree values
+    /* Your code here  */ 
+
+   
+    // 2 - Write function that search for a pecific name in the tree and returns true if the it's found and return false otherwis 
+    /* Your code here  */ 
+
     
 
-    // Print tree values function
-    public void printTreeValues(Node root) {
-
-        if (root == null) {
-            System.out.println("Tree is empty");
-            return;
-        }
-
-        Stack<Node> stack = new Stack<Node>();
-        stack.push(root);
-
-        while (!stack.isEmpty()) {
-            Node currentNode = stack.pop();
-
-            System.out.println(currentNode.name);
-
-            if (currentNode.right != null) {
-                stack.push(currentNode.right);
-            }
-
-            if (currentNode.left != null) {
-                stack.push(currentNode.left);
-            }
-
-            if (currentNode.center != null) {
-                stack.push(currentNode.center);
-            }
-
-        }
-
-        return;
-    }
-
     public static void main(String[] args) {
-
-         /* your code here 3 - Create Tree with than name (T) */ 
-
-        // Create tree root (node object) with the name "Ahmed"
-        T.root = new Node("Ahmed");
-
-        System.out.println("Print root value");
-         /* your code here 4 - Accecc the root data (name) and print it */ 
-
-        /* your code here 5 - Update the root data (name) to be Mohammed */ 
-
-        /* your code here 6 - Create root child (left child) with the name "Ali"*/ 
-
-        System.out.println("Print tree values");
-        /* your code here 7 - Print tree values */ 
+/* 
+    3 - Declare Tree
+    4 - Access the root data and print it
+    5 - Access and update the root data to be (Anas)
+    6 - Create root children as the image above shows
+    7 - Print tree values
+    8 - Search for (Rashed) call the search method
+*/
+        
+        /* Your code here  */ 
 
     }
 
