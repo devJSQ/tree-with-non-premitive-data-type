@@ -10,23 +10,27 @@ We will create a tree as it's shown in the below image:
 
 Image
 
+
+
+<img width="910" alt="Introduction to Arrays-01" src="https://github.com/SAFCSP-Team/tree-with-non-premitive-data-type/blob/main/Images/TreeOfStrings.jpg">
+
 ### Implementation
 
 Using Java programming language: 
 
 In `Tree` class:
 
-1 - Write a function that prints all tree values     
-2 - Write function that search for a pecific name in the tree and returns true if the it's found and return false otherwis
-
+1 - Write a function that prints all tree values       
+2 - Write function that search for a pecific name in the tree and returns true if the it's found and return false otherwis  
+  
 In `main` class:
 
-3 - Declare a tree and pass the root to it
-4 - Access the root data (name) and print it.   
-5 - Access and update the root data to be (Anas)
-6 - Create root children as the image above shows
-7 - Print tree values
-8 - Search for (Rashed) call the search method
+3 - Declare a tree and pass the root to it.    
+4 - Access the root data (name) and print it.     
+5 - Access and update the root data to be (Anas).   
+6 - Create root children as the image above shows.  
+7 - Print tree values.   
+8 - Search for (Rashed) call the search method.   
 
 9 - The output should be the same as below:
 
@@ -50,7 +54,7 @@ true
 
 ```
 
-
+Code: 
 
 ```java
 
