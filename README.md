@@ -6,12 +6,9 @@ The project's main focus is understanding trees, declaring the tree, accessing t
 ### Problem
 Create a tree to store names and print them.
 
-We will create a tree as it's shown in the below image:
+We will create a tree as it's shown in the following (Figuer 1):
 
-Image
-
-
-
+Figuer 1   
 <img width="910" alt="Introduction to Arrays-01" src="https://github.com/SAFCSP-Team/tree-with-non-premitive-data-type/blob/main/Images/TreeOfStrings.jpg">
 
 ### Implementation
