@@ -8,7 +8,8 @@ Create a tree to store names and print them.
 
 We will create a tree as it's shown in the below image:
 
-Image
+Figuer 1    
+<img width="910" alt="Introduction to tree" src="https://github.com/SAFCSP-Team/data-structures-and-algorithms-bootcamp/blob/main/data-structures-and-algorithms-101/02-data-structures/05-tree/images/TreeOfStrings.jpg">
 
 ### Implementation
 
