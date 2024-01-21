@@ -6,10 +6,9 @@ The project's main focus is understanding trees, declaring the tree, accessing t
 ### Problem
 Create a tree to store names and print them.
 
-We will create a tree as it's shown in the following (Figuer 1):
+We will create a tree as it's shown in the below image:
 
-Figuer 1   
-<img width="910" alt="Introduction to Arrays-01" src="https://github.com/SAFCSP-Team/tree-with-non-premitive-data-type/blob/main/Images/TreeOfStrings.jpg">
+Image
 
 ### Implementation
 
@@ -17,19 +16,27 @@ Using Java programming language:
 
 In `Tree` class:
 
-1 - Write a function that prints all tree values       
-2 - Write function that search for a pecific name in the tree and returns true if the it's found and return false otherwis  
-  
+1. Write a function that prints all tree values.
+2. Write a function that searches for a specific name in the tree and returns true if it is found, and false otherwise.
+
 In `main` class:
 
-3 - Declare a tree and pass the root to it.    
-4 - Access the root data (name) and print it.     
-5 - Access and update the root data to be (Anas).   
-6 - Create root children as the image above shows.  
-7 - Print tree values.   
-8 - Search for (Rashed) call the search method.   
+3 - Declare a tree and pass the root to it
+4 - Access the root data (name) and print it.   
+5 - Access and update the root data to be (Anas)
+6 - Create root children as the image above shows
+7 - Print tree values
+8 - Search for (Rashed) call the search method
 
-9 - The output should be the same as below:
+
+1. Declare a tree and pass the root to it.
+2. Access the root data (name) and print it.
+3. Access and update the root data to be "Anas".
+4. Create root children as shown in the image above.
+5. Print the tree values.
+6. Call the search method to search for "Rashed".
+
+9. The output should be the same as below:
 
 ```java
 
@@ -51,7 +58,7 @@ true
 
 ```
 
-Code: 
+
 
 ```java
 
