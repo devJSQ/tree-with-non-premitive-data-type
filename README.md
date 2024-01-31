@@ -1,4 +1,4 @@
-# Tree with primitive data type project
+# Tree project
 
 ### Objective
 The project's main focus is understanding trees, declaring the tree, accessing tree nodes using pointers, and performing operations on them.
