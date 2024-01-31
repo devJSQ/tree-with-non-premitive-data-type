@@ -1,7 +1,7 @@
 # Tree project
 
 ### Objective
-The project's main focus is understanding trees, declaring the tree, accessing tree nodes using pointers, and performing operations on them.
+The project's main focus is understanding how to build a tree, declare the tree, access tree nodes using pointers, and perform operations on them.
 
 ### Problem
 Create a tree to store names and print them.
